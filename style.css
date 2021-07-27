@@ -1,0 +1,233 @@
+body {
+    margin: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 100vw;
+    height: 400vh;
+    background-color: whitesmoke;
+}
+
+label img {
+    float: left;
+    width: 100px;
+    height: 50px;
+}
+
+nav {
+    width: 100vw;
+    height: 20vh;
+    padding: 5px;
+}
+
+nav h3 {
+    text-align: center;
+    color: rgb(19, 18, 18);
+}
+
+nav ul {
+    display: inline-flex;
+    margin-left: 30%;
+}
+
+nav li {
+    margin: 5px;
+    list-style-type: none;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+nav a {
+    color: rgb(15, 14, 14);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mission {
+    width: 100vw;
+    height: 94vh;
+    background-image: url(image/port\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.show-mission {
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(119, 102, 102);
+    position: relative;
+    left: 20%;
+    top: 30%;
+}
+
+.show-mission p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#report {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#product {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.product-image {
+    display: flex;
+}
+
+.item {
+    width: 190px;
+    height: 400px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.item1 {
+    width: 190px;
+    height: 400px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.item2 {
+    width: 190px;
+    height: 400px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.item img {
+    width: 440px;
+    height: 300px;
+}
+
+.item1 img {
+    width: 440px;
+    height: 300px;
+}
+
+.item2 img {
+    width: 440px;
+    height: 300px;
+}
+
+.box-image1 img {
+    width: 442px;
+    height: 200px;
+}
+
+.box-image2 img {
+    width: 442px;
+    height: 200px;
+}
+
+.box-image3 img {
+    width: 442px;
+    height: 200px;
+}
+
+#team {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.team-image {
+    display: flex;
+}
+
+.box-image1 {
+    width: 190px;
+    height: 400px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.box-image2 {
+    width: 190px;
+    height: 400px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.box-image3 {
+    width: 190px;
+    height: 400px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+#contact {
+    width: 100vw;
+    height: 25vh;
+    background-color: #663300
+}
+
+#contact p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#contact span {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 100vw;
+    height: 20vh;
+    margin: 5px;
+}
+
+.box1 {
+    width: 100vw;
+    height: 500px;
+    margin: 5px;
+}
+
+.box2 {
+    width: 100vw;
+    height: 500px;
+    margin: 5px;
+}
+
+.box3 {
+    width: 100vw;
+    height: 500px;
+    margin: 5px;
+}
+
+.social {
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    margin: 10px;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+    color: aliceblue;
+    cursor: pointer;
+}
